@@ -1,6 +1,5 @@
 import React from 'react'
 import Order from '../Order/Order'
-import _ from 'lodash'
 
 const OrderList = (props) => {
   const { orders = [] } = props
@@ -21,8 +20,7 @@ const OrderList = (props) => {
               </div>
             )
             : (
-              _.map(
-                orders,
+              orders.map(
                 order => {
                   const { id } = order
 
@@ -34,7 +32,6 @@ const OrderList = (props) => {
                   )
                 }
               )
-
             )
         }
       </div>
