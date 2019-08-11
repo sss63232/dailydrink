@@ -1,3 +1,33 @@
+# dailydrink
+
+dailydrink is a simple and easy tool for you to organize the orders of handmade drinks. It allows you to create orders for different kinds of drinks, as well as adding the quantity and extra notes.
+
+
+[Demo online](https://dailydrink.herokuapp.com)
+
+## Features
+
+1. you can add, edit or delete any order.
+2. clear dashboard for created orders.
+3. show you the total amount of money.
+
+## Install
+
+```shell
+# get the repository
+git clone https://github.com/sss63232/dailydrink.git
+
+# install packages
+yarn
+
+# run the app
+yarn start
+```
+## License
+
+MIT LICENSE
+
+---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
